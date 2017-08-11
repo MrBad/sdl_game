@@ -8,8 +8,8 @@
 #define DLT 4
 #define NUM_STARS 10
 
-#define IMG_STAR_PATH "/home/develop/cprogs/sdl/game/star.png"
-#define IMG_MAN_PATH "/home/develop/cprogs/sdl/game/man.png"
+#define IMG_STAR_PATH "imgs/star.png"
+#define IMG_MAN_PATH "imgs/man.png"
 
 typedef enum {
 	DIRECTION_DOWN = 0,
