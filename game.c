@@ -73,6 +73,7 @@ bool loadGame(GameState *game)
 	int i;
 	game->starTexture = loadTexture(game, IMG_STAR_PATH);
 	game->manTexture = loadTexture(game, IMG_MAN_PATH);
+	game->manFrame = 0;
 
 	// create man sprites
 	for (i = 0; i < 24; i++) {
